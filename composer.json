@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "druid628\\exactTarget\\WSSE": "src/"
+            "druid628\\exactTarget\\WSSE\\": "src/"
         }
     }
 }
