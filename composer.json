@@ -1,0 +1,31 @@
+{
+    "name": "druid628/et-wsse",
+    "type": "library",
+    "keywords" : ["exact target", "exacttarget", "email", "api" ],
+    "description": "WSSE library for use ExactTarget API",
+    "license": "MIT",
+    "homepage": "https://github.com/druid628/et-wsse-php",
+    "authors": [
+        {
+            "name": "Micah Breedlove",
+            "email": "druid628@gmail.com",
+            "homepage": "http://micah.breedlove.in/"
+        }
+    ],
+    "require": {
+        "php"         : ">=5.3.5",
+        "ext-soap"    : "*",
+        "lib-openssl" : "*",
+        "ext-mcrypt"  : "*"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "druid628\\exactTarget\\WSSE": "src/"
+        }
+    }
+}
