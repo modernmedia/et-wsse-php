@@ -4,6 +4,9 @@ namespace druid628\exactTarget\WSSE;
 use DOMElement;
 use DOMXPath;
 use Exception;
+use RobRichards\XMLSecLibs\XMLSecurityDSig;
+use RobRichards\XMLSecLibs\XMLSecurityKey;
+use RobRichards\XMLSecLibs\XMLSecEnc;
 
 /**
  * Class provided by Exact Target
