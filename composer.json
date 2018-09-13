@@ -15,7 +15,7 @@
     "require": {
         "php"         : ">=5.3.5",
         "ext-soap"    : "*",
-        "robrichards/xmlseclibs"  : "dev-remove_mcrypt"
+        "robrichards/xmlseclibs"  : "master"
     },
     "extra": {
         "branch-alias": {
